@@ -33,8 +33,8 @@ def _parse_release_as_version(rls):
 
 # -- Project information -----------------------------------------------------
 
-project = 'Genomic Knowledge Pilot'
-copyright = '2022, GK Pilot Contributors'
+project = 'demo-gks-template'
+copyright = '2023, demo-gks-template Contributors'
 author = 'Committers'
 master_doc = 'index'
 # N.B. RTD ignores these values. :-/
