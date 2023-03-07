@@ -33,18 +33,13 @@ def _parse_release_as_version(rls):
 
 # -- Project information -----------------------------------------------------
 
-project = 'demo-gks-template'
-copyright = '2023, demo-gks-template Contributors'
+project = 'Project name'
+copyright = '2023, GKS-Transcript'
 author = 'Committers'
 master_doc = 'index'
 # N.B. RTD ignores these values. :-/
 release = _get_git_tag()
 version = _parse_release_as_version(release)
-
-# -- Schema doc paths --------------------------------------------------------
-
-rst_epilog_fn = os.path.join(os.path.dirname(__file__), 'rst_epilog')
-rst_epilog = open(rst_epilog_fn).read().format(release=release)
 
 # -- General configuration ---------------------------------------------------
 
@@ -73,7 +68,7 @@ todo_emit_warnings = True
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-# html_logo = 'images/GA-logo.png'
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
